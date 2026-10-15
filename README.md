@@ -56,7 +56,7 @@ HARDEN-PRUEBA-QWEN3-5-9B/
 
 ## 🔗 4. Modelos en Hugging Face
 
-* **Qwen 3.5 9B Abliterado V2 (Safetensors / BF16):**  
+* **Qwen 3.5 9B Abliterado V2 (Repositorio Base):**  
   👉 [`HALO117MC/Qwen3.5-9B-Abliterated-V2`](https://huggingface.co/HALO117MC/Qwen3.5-9B-Abliterated-V2)
-* **Qwen 3.5 9B Abliterado V2 (GGUF Q8_0):**  
+* **Qwen 3.5 9B Abliterado V2 (Colección GGUF Q8_0):**  
   👉 [`HALO117MC/Qwen3.5-9B-Abliterated-V2-GGUF`](https://huggingface.co/HALO117MC/Qwen3.5-9B-Abliterated-V2-GGUF)
