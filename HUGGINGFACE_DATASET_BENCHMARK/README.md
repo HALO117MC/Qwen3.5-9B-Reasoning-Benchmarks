@@ -40,6 +40,10 @@ configs:
 
 # 🚀 Qwen 3.5 9B GSM8K Benchmark & Thermodynamic SOTA Sweep Audit
 
+<p align="center">
+  👤 <b>Developer (GitHub):</b> <a href="https://github.com/irving2017cloud"><b>@irving2017cloud</b></a> • 📂 <b>Official GitHub Harness Repo:</b> <a href="https://github.com/irving2017cloud/Qwen3.5-9B-Reasoning-Benchmarks"><b>Qwen3.5-9B-Reasoning-Benchmarks</b></a>
+</p>
+
 This repository contains the complete, forensic evaluation datasets, raw execution logs, throughput metrics, and high-resolution performance infographics for the **Qwen 3.5 9B** LLM family across three architectural variants:
 
 1. **Qwen 3.5 9B Original** (`Q8_0` GGUF) — Base reference model.
