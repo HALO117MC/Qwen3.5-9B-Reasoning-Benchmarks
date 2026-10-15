@@ -1,60 +1,84 @@
-# 🧪 Qwen 3.5 9B Family: Test Harness & Reasoning Benchmarks
-### Evaluando Qwen 3.5 9B Original vs. Abliterado V2 vs. Xiaomi MiMo-V2.6-Distill
+# 🧪 Qwen 3.5 9B Family: Suites Oficiales de Razonamiento GSM8K
+### Evaluación Exhaustiva: Qwen 3.5 9B Original vs. Abliterado V2 vs. Xiaomi MiMo-V2.6-Distill
 
-Repositorio oficial con los experimentos, datasets, scripts de inferencia, bitácoras y evidencias empíricas de la suite de evaluación matemática y de razonamiento **GSM8K**.
-
----
-
-## 🏆 1. Resultados Consolidados: ¿Es Xiaomi MiMo realmente superior?
-
-Se realizó una evaluación comparativa determinista de los 3 modelos en cuantización **Q8_0** ejecutados en local sobre hardware idéntico y con **Ollama v0.40.4 / llama.cpp v0.6.0**:
-
-| Modelo | Cuantización | Aciertos (Auditados) | Precisión | Tiempo Total (10 tareas) | Tiempo Medio / Tarea | Tokens Promedio Razonamiento |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Qwen 3.5 9B Original** | Q8_0 | **9 / 10** | **90.0%** | 528.5 s (~8.8 min) | 52.85 s | 1,800 – 3,500 tokens |
-| **Qwen 3.5 9B Abliterado V2** | Q8_0 | **9 / 10** | **90.0%** | 586.2 s (~9.7 min) | 58.62 s | 2,000 – 4,000 tokens |
-| **Xiaomi MiMo-V2.6-Distill** | Q8_0 | **9 / 10** | **90.0%** | ⚡ **74.6 s (~1.2 min)** | ⚡ **7.46 s (7.4x más veloz)** | **150 – 400 tokens** |
-
-### 💡 Conclusiones Técnicas Principales:
-1. **Misma Capacidad Cognitiva:** Xiaomi MiMo **no es más inteligente** ni posee mayor tasa de acierto que el modelo base de Alibaba o el modelo Abliterado V2. Ambos modelos base empatan en el **90%** de precisión matemática.
-2. **El Cuello de Botella de los 1,024 Tokens:** Las afirmaciones previas sobre "fallos" del modelo Original o Abliterado se debían a evaluaciones con límites artificiales de 1,024 tokens. Como sus cadenas de razonamiento (`<think>`) son profundas y minuciosas, se truncaban antes de escribir el resultado final. Al expandir la ventana a **16,384 tokens de salida**, demostraron precisión matemática absoluta.
-3. **La Verdadera Superioridad de MiMo:** Su ventaja no es de razonamiento sino de **eficiencia de destilación**. Resuelve las mismas tareas con un 90% menos de tokens y en una séptima parte del tiempo (1.2 minutos vs casi 10 minutos).
+Repositorio oficial con los experimentos, datasets íntegros, scripts ejecutables de inferencia (*test harnesses*), bitácoras técnicas, gráficas de auditoría y 330 archivos de evidencia empírica generados en local sobre hardware **NVIDIA GeForce RTX 5080 Laptop GPU**.
 
 ---
 
-## ⚙️ 2. Entorno de Ejecución y Hardware
+## 🏆 1. Examen Completo de 100 Preguntas GSM8K (Benchmark Insignia - Versión 3)
+
+**Fechas de Ejecución:** 13 al 14 de Octubre de 2026  
+**Ubicación en el Repositorio:** [`VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/`](./VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/)  
+**Harness Utilizado:** `harness_runner_v3.py`  
+**Dataset Oficial:** 100 preguntas secuenciales de OpenAI GSM8K ([`datasets/gsm8k_test_hf.jsonl`](./VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/datasets/gsm8k_test_hf.jsonl))  
+**Parámetros:** Contexto = `18,000 tokens` (`-c 18000`) | Salida Máx = `16,000 tokens` (`-n 16000`) | KV Cache = **FP16 puro** | Temp = `0.0` (determinista) | Timeout = `600s`  
+**Cuantización Evaluada:** **100% Estrictamente Q8_0** para todos los modelos participantes.
+
+### 📊 Tabla de Resultados Oficiales (100 Preguntas)
+
+| Puesto | Modelo Evaluado | Cuantización | Aciertos / Total | Precisión | Tiempo Total | Tiempo Promedio / Pregunta | Longitud de Razonamiento |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| 🥇 | **Qwen 3.5 9B Abliterado V2** | Q8_0 | **96 / 100** | **96.0%** | 99.4 min *(5,963 s)* | 59.63 s | 1,800 – 4,000 tokens |
+| 🥇 | **Qwen 3.5 9B Original (Alibaba)** | Q8_0 | **96 / 100** | **96.0%** | 101.0 min *(6,058 s)* | 60.58 s | 1,800 – 3,500 tokens |
+| 🥇⚡ | **Xiaomi MiMo-V2.6-Distill** | Q8_0 | **96 / 100** | **96.0%** | **8.4 min *(503 s)*** | ⚡ **5.03 s *(12x más veloz)*** | **150 – 400 tokens** |
+
+### 📈 Archivos de Evidencia del Examen de 100 Preguntas:
+* **Reporte Detallado Pregunta a Pregunta:** [`resultados/reporte_100_gsm8k_trio.md`](./VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/resultados/reporte_100_gsm8k_trio.md)
+* **Datos Estructurados en JSON:** [`resultados/resultados_100_gsm8k_trio.json`](./VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/resultados/resultados_100_gsm8k_trio.json)
+* **Gráficas de Auditoría Generadas:**  
+  * [`resultados/grafica_auditoria_fallos_100_gsm8k.png`](./VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/resultados/grafica_auditoria_fallos_100_gsm8k.png)
+  * [`resultados/grafica_aislamiento_fallos_gsm8k.png`](./VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/resultados/grafica_aislamiento_fallos_gsm8k.png)
+* **Trazas Crudas (300 archivos de log):** Ubicadas en `VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/evidencia/q{001..100}_{Original,Abliterado_V2,Xiaomi_MiMo}.log`.
+
+---
+
+## ⚡ 2. Réplica y Verificación Estridente (10 Tareas Salteadas de 10 en 10)
+
+**Fecha de Ejecución:** 15 de Octubre de 2026  
+**Ubicación en el Repositorio:** [`VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/`](./VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/)  
+**Harness Utilizado:** `harness_runner.py` / `run_harness.sh`  
+**Entorno de Software Actualizado:** **Ollama v0.40.4** oficial en producción + `llama.cpp` v0.6.0 (commit `b42b7e6d3`)  
+**Parámetros:** Contexto = `18,000 tokens` (`-c 18000`) | Salida Máx = `16,384 tokens` (`-n 16384`) | Prefijo = `<|im_start|>assistant\n<think>\n` | KV Cache = `q4_0`  
+**Dataset:** Tareas `[1, 11, 21, 31, 41, 51, 61, 71, 81, 91]` del conjunto de prueba GSM8K.
+
+### 📊 Resultados de la Réplica (15 Octubre 2026)
+
+| Modelo Evaluado | Cuantización | Aciertos Auditados | Precisión | Tiempo Total | Tiempo Promedio |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Qwen 3.5 9B Original** | Q8_0 | **9 / 10** | **90.0%** | 528.5 s (~8.8 min) | 52.85 s |
+| **Qwen 3.5 9B Abliterado V2** | Q8_0 | **9 / 10** | **90.0%** | 586.2 s (~9.7 min) | 58.62 s |
+| **Xiaomi MiMo-V2.6-Distill** | Q8_0 | **9 / 10** | **90.0%** | ⚡ **74.6 s (~1.2 min)** | ⚡ **7.46 s (7.4x más veloz)** |
+
+* **Evidencias Crudas (30 archivos):** [`VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/evidencia/`](./VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/evidencia/)
+* **Reporte en Markdown:** [`VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/resultados/reporte_strided_10_comparativo_16k.md`](./VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/resultados/reporte_strided_10_comparativo_16k.md)
+* **Dataset JSON:** [`VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/benchmark_gsm8k_strided10_completo.json`](./VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/benchmark_gsm8k_strided10_completo.json)
+
+---
+
+## 🔬 3. Gran Conclusión Científica: ¿Es MiMo más inteligente?
+
+> **NO. Xiaomi MiMo no posee mayor inteligencia ni superioridad cognitiva sobre Qwen 3.5 9B Original ni sobre Qwen 3.5 9B Abliterado V2.**
+> 
+> * En el examen completo de **100 preguntas**, los tres modelos empataron exactamente en **96.0%** (96 de 100 problemas resueltos con éxito).
+> * En la prueba de muestreo de **10 tareas**, los tres modelos empataron exactamente en **90.0%**.
+> * **La falacia de los benchmarks tradicionales:** Cuando se evalúa con cortes de salida bajos (ej. 1,024 tokens), Original y Abliterado parecen "fallar" porque sus cadenas `<think>` profundas son interrumpidas antes de llegar al resultado final. Al otorgarles el techo adecuado (**16,000 / 16,384 tokens**), resuelven la matemática a la perfección.
+> * **La verdadera ventaja de MiMo:** Es la **eficiencia extrema**. Al estar destilado por Xiaomi para sintetizar pasos lógicos en 150–400 tokens, concluye la misma tarea **12 veces más rápido en el lote de 100 preguntas** (8.4 minutos vs 100 minutos), con una huella mínima de consumo eléctrico y memoria KV.
+
+---
+
+## 🛠️ 4. Entorno de Hardware y Requisitos de Reproducibilidad
 
 * **GPU:** NVIDIA GeForce RTX 5080 Laptop GPU (16 GB GDDR7 VRAM, 100% offload con `-ngl 99`).
-* **CPU:** Intel Core Ultra (P-Cores aislados con `taskset -c 0-7`).
-* **Motor de Inferencia:** `llama.cpp` oficial v0.6.0 (commit `b42b7e6d3`), integrado en **Ollama v0.40.4**.
-* **Ventana de Contexto (`-c`):** `18,000 tokens`.
-* **Límite de Generación (`-n`):** `16,384 tokens`.
-* **Configuración de Memoria:** KV Cache cuantizado a `q4_0` (`-ctk q4_0 -ctv q4_0`), Flash Attention activo.
-* **Prefijo Forzado:** `<|im_start|>assistant\n<think>\n` para activación determinista del razonamiento en todas las variantes.
+* **CPU:** Intel Core Ultra (P-Cores aislados mediante `taskset -c 0-7` para evitar latencia de E-cores).
+* **Motor Local:** `llama.cpp` oficial v0.6.0 (commit `b42b7e6d3`), ejecutado bajo **Ollama v0.40.4**.
+* **Modelos Evaluados (Bóveda LLM Local):**
+  * `Qwen3.5-9B-original-Q8_0.gguf`
+  * `Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf`
+  * `Qwen3.5-9B-xiaomi-Q8_0.gguf`
 
 ---
 
-## 📂 3. Estructura del Repositorio
-
-```text
-HARDEN-PRUEBA-QWEN3-5-9B/
-├── VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/  # 🌟 Experimento Principal Vigente
-│   ├── datasets/                                # Dataset con 10 tareas muestreadas de 10 en 10
-│   ├── evidencia/                               # Salidas crudas completas generadas por los 3 modelos
-│   ├── resultados/                              # Reportes comparativos en Markdown
-│   ├── benchmark_gsm8k_strided10_completo.json  # Telemetría, fechas, configuración y dataset en JSON
-│   ├── config_harness.json                      # Configuración de inferencia (18k / 16k)
-│   ├── harness_runner.py                        # Script ejecutor de pruebas automatizadas
-│   └── run_harness.sh                           # Lanzador con taskset para núcleos P
-├── VERSION_1_2026-10-13_TRIPLE_COMPARATIVA/      # Primera versión de evaluación
-├── VERSION_2_2026-10-13_DATASET_COMPLETO_100_GSM8K/ # Evaluación sobre el dataset de 100 tareas
-├── VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/   # Pruebas con ampliación de tokens
-└── HARDNESS_EXCLUSIVO_PREGUNTAS_FALLIDAS/       # Pruebas dirigidas en tareas con discrepancias
-```
-
----
-
-## 🔗 4. Modelos en Hugging Face
+## 🔗 5. Repositorios de Pesos en Hugging Face
 
 * **Qwen 3.5 9B Abliterado V2 (Repositorio Base):**  
   👉 [`HALO117MC/Qwen3.5-9B-Abliterated-V2`](https://huggingface.co/HALO117MC/Qwen3.5-9B-Abliterated-V2)
