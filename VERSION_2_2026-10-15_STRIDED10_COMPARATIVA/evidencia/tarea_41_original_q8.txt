@@ -1,0 +1,11 @@
+PROMPT:
+<|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy’s iPhone is 1 year old, how old is Brandon’s iPhone?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+OUTPUT:
+TIMEOUT

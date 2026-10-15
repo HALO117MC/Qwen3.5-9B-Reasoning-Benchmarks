@@ -1,0 +1,1024 @@
+{
+  "T_0.0": {
+    "temp": 0.0,
+    "scores": {
+      "Original": 4,
+      "Abliterado_V2": 4,
+      "Xiaomi_MiMo": 4
+    },
+    "details": {
+      "13": {
+        "Original": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 88.73
+        },
+        "Abliterado_V2": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 69.49
+        },
+        "Xiaomi_MiMo": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 4.84
+        }
+      },
+      "38": {
+        "Original": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 158.23
+        },
+        "Abliterado_V2": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 128.31
+        },
+        "Xiaomi_MiMo": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 4.81
+        }
+      },
+      "46": {
+        "Original": {
+          "pred": "0.4",
+          "correct": false,
+          "time_s": 291.31
+        },
+        "Abliterado_V2": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 166.69
+        },
+        "Xiaomi_MiMo": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 5.92
+        }
+      },
+      "63": {
+        "Original": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 65.38
+        },
+        "Abliterado_V2": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 69.35
+        },
+        "Xiaomi_MiMo": {
+          "pred": "2500",
+          "correct": false,
+          "time_s": 6.31
+        }
+      },
+      "74": {
+        "Original": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 90.67
+        },
+        "Abliterado_V2": {
+          "pred": "5",
+          "correct": false,
+          "time_s": 274.88
+        },
+        "Xiaomi_MiMo": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 5.8
+        }
+      },
+      "76": {
+        "Original": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 46.11
+        },
+        "Abliterado_V2": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 39.56
+        },
+        "Xiaomi_MiMo": {
+          "pred": "7.5",
+          "correct": false,
+          "time_s": 4.4
+        }
+      },
+      "86": {
+        "Original": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 146.94
+        },
+        "Abliterado_V2": {
+          "pred": "48",
+          "correct": false,
+          "time_s": 124.55
+        },
+        "Xiaomi_MiMo": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 6.44
+        }
+      },
+      "94": {
+        "Original": {
+          "pred": "1.10",
+          "correct": false,
+          "time_s": 280.31
+        },
+        "Abliterado_V2": {
+          "pred": "1.10",
+          "correct": false,
+          "time_s": 288.17
+        },
+        "Xiaomi_MiMo": {
+          "pred": "36",
+          "correct": true,
+          "time_s": 3.88
+        }
+      }
+    }
+  },
+  "T_0.1": {
+    "temp": 0.1,
+    "scores": {
+      "Original": 5,
+      "Abliterado_V2": 5,
+      "Xiaomi_MiMo": 5
+    },
+    "details": {
+      "13": {
+        "Original": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 28.567927360534668
+        },
+        "Abliterado_V2": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 68.64075469970703
+        },
+        "Xiaomi_MiMo": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 3.7509374618530273
+        }
+      },
+      "38": {
+        "Original": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 187.8308084011078
+        },
+        "Abliterado_V2": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 146.70995831489563
+        },
+        "Xiaomi_MiMo": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 3.414980888366699
+        }
+      },
+      "46": {
+        "Original": {
+          "pred": "7",
+          "correct": false,
+          "time_s": 278.2994613647461
+        },
+        "Abliterado_V2": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 158.51111507415771
+        },
+        "Xiaomi_MiMo": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 6.242855548858643
+        }
+      },
+      "63": {
+        "Original": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 76.15333962440491
+        },
+        "Abliterado_V2": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 73.52245259284973
+        },
+        "Xiaomi_MiMo": {
+          "pred": "2500",
+          "correct": false,
+          "time_s": 7.291816473007202
+        }
+      },
+      "74": {
+        "Original": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 94.69927430152893
+        },
+        "Abliterado_V2": {
+          "pred": "265",
+          "correct": false,
+          "time_s": 200.51154279708862
+        },
+        "Xiaomi_MiMo": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 5.925302743911743
+        }
+      },
+      "76": {
+        "Original": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 63.002246141433716
+        },
+        "Abliterado_V2": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 47.87075400352478
+        },
+        "Xiaomi_MiMo": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 4.330953121185303
+        }
+      },
+      "86": {
+        "Original": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 54.77392244338989
+        },
+        "Abliterado_V2": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 86.65331625938416
+        },
+        "Xiaomi_MiMo": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 5.159228086471558
+        }
+      },
+      "94": {
+        "Original": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 144.81963634490967
+        },
+        "Abliterado_V2": {
+          "pred": "9.09",
+          "correct": false,
+          "time_s": 268.52226161956787
+        },
+        "Xiaomi_MiMo": {
+          "pred": "36",
+          "correct": true,
+          "time_s": 5.89592719078064
+        }
+      }
+    }
+  },
+  "T_0.12": {
+    "temp": 0.12,
+    "scores": {
+      "Original": 5,
+      "Abliterado_V2": 4,
+      "Xiaomi_MiMo": 5
+    },
+    "details": {
+      "13": {
+        "Original": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 52.00128722190857
+        },
+        "Abliterado_V2": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 108.73136687278748
+        },
+        "Xiaomi_MiMo": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 4.329919815063477
+        }
+      },
+      "38": {
+        "Original": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 164.68865275382996
+        },
+        "Abliterado_V2": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 173.94901585578918
+        },
+        "Xiaomi_MiMo": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 3.852952718734741
+        }
+      },
+      "46": {
+        "Original": {
+          "pred": "44",
+          "correct": false,
+          "time_s": 386.8572995662689
+        },
+        "Abliterado_V2": {
+          "pred": "2",
+          "correct": false,
+          "time_s": 386.6197829246521
+        },
+        "Xiaomi_MiMo": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 7.532110214233398
+        }
+      },
+      "63": {
+        "Original": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 94.14852452278137
+        },
+        "Abliterado_V2": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 127.54433965682983
+        },
+        "Xiaomi_MiMo": {
+          "pred": "2500",
+          "correct": false,
+          "time_s": 8.808815240859985
+        }
+      },
+      "74": {
+        "Original": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 110.56877374649048
+        },
+        "Abliterado_V2": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 249.98087358474731
+        },
+        "Xiaomi_MiMo": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 7.110422134399414
+        }
+      },
+      "76": {
+        "Original": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 51.296032190322876
+        },
+        "Abliterado_V2": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 61.05335092544556
+        },
+        "Xiaomi_MiMo": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 5.1706297397613525
+        }
+      },
+      "86": {
+        "Original": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 154.0824043750763
+        },
+        "Abliterado_V2": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 190.74620461463928
+        },
+        "Xiaomi_MiMo": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 6.244689702987671
+        }
+      },
+      "94": {
+        "Original": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 200.50527477264404
+        },
+        "Abliterado_V2": {
+          "pred": "9.09",
+          "correct": false,
+          "time_s": 388.47769379615784
+        },
+        "Xiaomi_MiMo": {
+          "pred": "36",
+          "correct": true,
+          "time_s": 7.29646635055542
+        }
+      }
+    }
+  },
+  "T_0.15": {
+    "temp": 0.15,
+    "scores": {
+      "Original": 4,
+      "Abliterado_V2": 3,
+      "Xiaomi_MiMo": 5
+    },
+    "details": {
+      "13": {
+        "Original": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 101.42763328552246
+        },
+        "Abliterado_V2": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 134.94579529762268
+        },
+        "Xiaomi_MiMo": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 5.4578001499176025
+        }
+      },
+      "38": {
+        "Original": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 224.42326736450195
+        },
+        "Abliterado_V2": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 176.51315546035767
+        },
+        "Xiaomi_MiMo": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 3.7633094787597656
+        }
+      },
+      "46": {
+        "Original": {
+          "pred": "14",
+          "correct": false,
+          "time_s": 377.61951327323914
+        },
+        "Abliterado_V2": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 181.38456201553345
+        },
+        "Xiaomi_MiMo": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 6.319305896759033
+        }
+      },
+      "63": {
+        "Original": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 105.81616497039795
+        },
+        "Abliterado_V2": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 107.97649574279785
+        },
+        "Xiaomi_MiMo": {
+          "pred": "2500",
+          "correct": false,
+          "time_s": 8.43057632446289
+        }
+      },
+      "74": {
+        "Original": {
+          "pred": "265",
+          "correct": false,
+          "time_s": 249.2598774433136
+        },
+        "Abliterado_V2": {
+          "pred": "265",
+          "correct": false,
+          "time_s": 217.73709511756897
+        },
+        "Xiaomi_MiMo": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 6.9864232540130615
+        }
+      },
+      "76": {
+        "Original": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 59.11150670051575
+        },
+        "Abliterado_V2": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 53.41989827156067
+        },
+        "Xiaomi_MiMo": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 5.152161121368408
+        }
+      },
+      "86": {
+        "Original": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 105.93358063697815
+        },
+        "Abliterado_V2": {
+          "pred": "48",
+          "correct": false,
+          "time_s": 338.9809076786041
+        },
+        "Xiaomi_MiMo": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 5.820580244064331
+        }
+      },
+      "94": {
+        "Original": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 180.83209490776062
+        },
+        "Abliterado_V2": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 165.06341004371643
+        },
+        "Xiaomi_MiMo": {
+          "pred": "36",
+          "correct": true,
+          "time_s": 6.9567718505859375
+        }
+      }
+    }
+  },
+  "T_0.18": {
+    "temp": 0.18,
+    "scores": {
+      "Original": 6,
+      "Abliterado_V2": 4,
+      "Xiaomi_MiMo": 5
+    },
+    "details": {
+      "13": {
+        "Original": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 77.36494994163513
+        },
+        "Abliterado_V2": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 119.73133277893066
+        },
+        "Xiaomi_MiMo": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 5.213946342468262
+        }
+      },
+      "38": {
+        "Original": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 193.84216809272766
+        },
+        "Abliterado_V2": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 131.28319668769836
+        },
+        "Xiaomi_MiMo": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 3.7608654499053955
+        }
+      },
+      "46": {
+        "Original": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 258.8775200843811
+        },
+        "Abliterado_V2": {
+          "pred": "44",
+          "correct": false,
+          "time_s": 251.1883761882782
+        },
+        "Xiaomi_MiMo": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 6.9028849601745605
+        }
+      },
+      "63": {
+        "Original": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 138.45878386497498
+        },
+        "Abliterado_V2": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 105.85433030128479
+        },
+        "Xiaomi_MiMo": {
+          "pred": "2500",
+          "correct": false,
+          "time_s": 7.938053131103516
+        }
+      },
+      "74": {
+        "Original": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 315.9127411842346
+        },
+        "Abliterado_V2": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 153.97294425964355
+        },
+        "Xiaomi_MiMo": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 6.923928499221802
+        }
+      },
+      "76": {
+        "Original": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 51.53834676742554
+        },
+        "Abliterado_V2": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 36.646692991256714
+        },
+        "Xiaomi_MiMo": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 5.04994797706604
+        }
+      },
+      "86": {
+        "Original": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 221.79552388191223
+        },
+        "Abliterado_V2": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 227.85330033302307
+        },
+        "Xiaomi_MiMo": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 6.2433295249938965
+        }
+      },
+      "94": {
+        "Original": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 203.30016160011292
+        },
+        "Abliterado_V2": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 392.411990404129
+        },
+        "Xiaomi_MiMo": {
+          "pred": "36",
+          "correct": true,
+          "time_s": 7.755064249038696
+        }
+      }
+    }
+  },
+  "T_0.2": {
+    "temp": 0.2,
+    "scores": {
+      "Original": 4,
+      "Abliterado_V2": 5,
+      "Xiaomi_MiMo": 5
+    },
+    "details": {
+      "13": {
+        "Original": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 94.93783783912659
+        },
+        "Abliterado_V2": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 74.96114015579224
+        },
+        "Xiaomi_MiMo": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 4.257812261581421
+        }
+      },
+      "38": {
+        "Original": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 130.7887659072876
+        },
+        "Abliterado_V2": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 160.88542819023132
+        },
+        "Xiaomi_MiMo": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 3.3695051670074463
+        }
+      },
+      "46": {
+        "Original": {
+          "pred": "4",
+          "correct": false,
+          "time_s": 276.21529746055603
+        },
+        "Abliterado_V2": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 80.18969988822937
+        },
+        "Xiaomi_MiMo": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 5.598337173461914
+        }
+      },
+      "63": {
+        "Original": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 115.623464345932
+        },
+        "Abliterado_V2": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 83.74330973625183
+        },
+        "Xiaomi_MiMo": {
+          "pred": "2500",
+          "correct": false,
+          "time_s": 6.295305490493774
+        }
+      },
+      "74": {
+        "Original": {
+          "pred": "265",
+          "correct": false,
+          "time_s": 129.41295766830444
+        },
+        "Abliterado_V2": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 149.92533373832703
+        },
+        "Xiaomi_MiMo": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 5.6645636558532715
+        }
+      },
+      "76": {
+        "Original": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 55.999083280563354
+        },
+        "Abliterado_V2": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 42.13747763633728
+        },
+        "Xiaomi_MiMo": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 4.326855421066284
+        }
+      },
+      "86": {
+        "Original": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 191.84342241287231
+        },
+        "Abliterado_V2": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 107.69844770431519
+        },
+        "Xiaomi_MiMo": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 3.4796395301818848
+        }
+      },
+      "94": {
+        "Original": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 266.7970314025879
+        },
+        "Abliterado_V2": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 125.61970829963684
+        },
+        "Xiaomi_MiMo": {
+          "pred": "36",
+          "correct": true,
+          "time_s": 7.352038383483887
+        }
+      }
+    }
+  },
+  "T_0.3": {
+    "temp": 0.3,
+    "scores": {
+      "Original": 3,
+      "Abliterado_V2": 4,
+      "Xiaomi_MiMo": 5
+    },
+    "details": {
+      "13": {
+        "Original": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 96.19
+        },
+        "Abliterado_V2": {
+          "pred": "12",
+          "correct": false,
+          "time_s": 108.12
+        },
+        "Xiaomi_MiMo": {
+          "pred": "90",
+          "correct": false,
+          "time_s": 4.63
+        }
+      },
+      "38": {
+        "Original": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 112.2
+        },
+        "Abliterado_V2": {
+          "pred": "2",
+          "correct": true,
+          "time_s": 105.0
+        },
+        "Xiaomi_MiMo": {
+          "pred": "0",
+          "correct": false,
+          "time_s": 5.73
+        }
+      },
+      "46": {
+        "Original": {
+          "pred": "2",
+          "correct": false,
+          "time_s": 278.06
+        },
+        "Abliterado_V2": {
+          "pred": "2",
+          "correct": false,
+          "time_s": 286.58
+        },
+        "Xiaomi_MiMo": {
+          "pred": "104",
+          "correct": true,
+          "time_s": 4.52
+        }
+      },
+      "63": {
+        "Original": {
+          "pred": "5",
+          "correct": false,
+          "time_s": 291.06
+        },
+        "Abliterado_V2": {
+          "pred": "25000",
+          "correct": true,
+          "time_s": 128.25
+        },
+        "Xiaomi_MiMo": {
+          "pred": "2500",
+          "correct": false,
+          "time_s": 3.13
+        }
+      },
+      "74": {
+        "Original": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 222.76
+        },
+        "Abliterado_V2": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 71.94
+        },
+        "Xiaomi_MiMo": {
+          "pred": "255",
+          "correct": true,
+          "time_s": 5.15
+        }
+      },
+      "76": {
+        "Original": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 75.65
+        },
+        "Abliterado_V2": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 99.13
+        },
+        "Xiaomi_MiMo": {
+          "pred": "60",
+          "correct": true,
+          "time_s": 4.78
+        }
+      },
+      "86": {
+        "Original": {
+          "pred": "2",
+          "correct": false,
+          "time_s": 289.83
+        },
+        "Abliterado_V2": {
+          "pred": "11",
+          "correct": false,
+          "time_s": 290.29
+        },
+        "Xiaomi_MiMo": {
+          "pred": "44",
+          "correct": true,
+          "time_s": 5.28
+        }
+      },
+      "94": {
+        "Original": {
+          "pred": "36.36",
+          "correct": false,
+          "time_s": 215.12
+        },
+        "Abliterado_V2": {
+          "pred": "38",
+          "correct": false,
+          "time_s": 288.32
+        },
+        "Xiaomi_MiMo": {
+          "pred": "36",
+          "correct": true,
+          "time_s": 5.88
+        }
+      }
+    }
+  }
+}

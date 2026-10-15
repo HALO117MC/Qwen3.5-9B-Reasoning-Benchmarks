@@ -1,0 +1,48 @@
+PROMPT:
+<|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+OUTPUT:
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b0-unknown
+model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf
+ftype      : Q8_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> <|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in ... (truncated)
+Janet’s ducks lay 16 eggs per day. She eats 3 for breakfast and uses 4 for muffins, totaling 7 eggs consumed. Subtracting that from the 16 eggs laid gives 16 − 7 = 9 eggs remaining to sell. At $2 per egg, she earns 9 × $2 = $18 at the farmers' market every day.
+
+#### 18
+
+[ Prompt: 230.4 t/s | Generation: 66.3 t/s ]
+
+
+Exiting...

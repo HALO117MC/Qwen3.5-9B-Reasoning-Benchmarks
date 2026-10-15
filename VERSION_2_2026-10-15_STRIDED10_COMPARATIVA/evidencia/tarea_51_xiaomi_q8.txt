@@ -1,0 +1,90 @@
+PROMPT:
+<|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Lloyd has an egg farm. His chickens produce 252 eggs per day and he sells them for $2 per dozen. How much does Lloyd make on eggs per week?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+OUTPUT:
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b0-unknown
+model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf
+ftype      : Q8_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> <|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Lloyd has an egg farm. His chickens produce 252 eggs per day and he sells them for $2 per dozen. How much does Lloyd make on eggs per week?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+[Start thinking]
+
+Let me solve this step by step.
+
+1. Lloyd's chickens produce 252 eggs per day.
+2. He sells them for $2 per dozen.
+3. I need to find out how much he makes per week.
+
+First, let me figure out how many eggs are in a week. A week has 7 days.
+
+252 eggs/day × 7 days/week = 1764 eggs/week
+
+Now, I need to convert eggs to dozens. A dozen is 12 eggs.
+
+1764 eggs ÷ 12 eggs/dozen = 147 dozen/week
+
+Now, at $2 per dozen:
+147 dozen × $2/dozen = $294/week
+
+So Lloyd makes $294 per week on eggs.
+
+Let me double-check:
+- 252 × 7 = 1764 ✓
+- 1764 ÷ 12 = 147 ✓
+- 147 × 2 = 294 ✓
+
+The answer is $294 per week.
+[End thinking]
+
+Lloyd's chickens produce 252 eggs per day.
+
+A week has 7 days, so:
+252 eggs/day × 7 days = 1,764 eggs per week
+
+A dozen is 12 eggs, so:
+1,764 eggs ÷ 12 = 147 dozen per week
+
+At $2 per dozen:
+147 dozen × $2 = $294 per week
+
+Lloyd makes **$294** per week on eggs.
+
+[ Prompt: 184.2 t/s | Generation: 50.9 t/s ]
+
+
+Exiting...

@@ -1,0 +1,62 @@
+PROMPT:
+<|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+OUTPUT:
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b0-unknown
+model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf
+ftype      : Q8_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> <|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the ... (truncated)
+Let's break this down step by step.
+
+**Month 1:** 60 downloads
+
+**Month 2:** Three times as many as month 1
+60 × 3 = 180 downloads
+
+**Month 3:** Reduced by 30% from month 2
+30% of 180 = 54
+180 - 54 = 126 downloads
+
+**Total over three months:**
+60 + 180 + 126 = 366
+
+The program had 366 downloads total over the three months.
+
+#### 366
+
+[ Prompt: 201.3 t/s | Generation: 55.7 t/s ]
+
+
+Exiting...

@@ -1,0 +1,104 @@
+PROMPT:
+<|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good. How many oranges are good?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+OUTPUT:
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b0-unknown
+model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf
+ftype      : Q8_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> <|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good. How many oranges are good?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+[Start thinking]
+
+Let me parse this carefully.
+
+A basket contains 25 oranges.
+- 1 is bad
+- 20% are unripe
+- 2 are sour
+- the rest are good
+
+Question: How many oranges are good?
+
+Let me compute:
+- Total: 25
+- Unripe: 20% of 25 = 5
+- Bad: 1
+- Sour: 2
+
+Are these categories mutually exclusive? The problem says "1 is bad, 20% are unripe, 2 are sour and the rest are good."
+
+The typical interpretation: bad, unripe, and sour are separate categories, and the rest are good.
+
+So good = 25 - 5 - 1 - 2 = 17.
+
+But wait — could "bad" include unripe? The problem doesn't specify overlap. The standard interpretation in such riddles is that these are distinct categories.
+
+Let me check: 25 - 5 - 1 - 2 = 17.
+
+So 17 oranges are good.
+
+Let me double-check the arithmetic: 5 + 1 + 2 = 8. 25 - 8 = 17. Yes.
+
+The answer is 17.
+[End thinking]
+
+Let me break down the problem:
+
+**Total oranges:** 25
+
+**Categories given:**
+- Bad: 1
+- Unripe: 20% of 25 = 5
+- Sour: 2
+
+**Assumption:** These three categories are mutually exclusive (an orange is counted in only one of them), and "the rest" are good.
+
+**Calculation:**
+- Good = Total − (bad + unripe + sour)
+- Good = 25 − (1 + 5 + 2)
+- Good = 25 − 8
+- Good = 17
+
+**Answer:** 17 oranges are good.
+
+#### 17
+
+[ Prompt: 202.6 t/s | Generation: 54.8 t/s ]
+
+
+Exiting...

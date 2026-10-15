@@ -1,0 +1,61 @@
+PROMPT:
+<|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Two girls each got 1/6 of the 24 liters of water. Then a boy got 6 liters of water. How many liters of water were left?<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+OUTPUT:
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b0-unknown
+model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf
+ftype      : Q8_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> <|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Two girls each got 1/6 of the 24 liters of water. Then a boy got 6 liters of water. How many liters of water were left?<|im_end|>
+<|im_start|>assistant
+<think>
+
+Two girls each received 1/6 of 24 liters:
+- Girl 1: 24 × 1/6 = 4 liters
+- Girl 2: 24 × 1/6 = 4 liters
+
+Total given to girls: 4 + 4 = 8 liters
+
+Then a boy got 6 liters.
+
+Total distributed: 8 + 6 = 14 liters
+
+Water left: 24 - 14 = 10 liters
+
+#### 10
+
+[ Prompt: 192.5 t/s | Generation: 56.9 t/s ]
+
+
+Exiting...

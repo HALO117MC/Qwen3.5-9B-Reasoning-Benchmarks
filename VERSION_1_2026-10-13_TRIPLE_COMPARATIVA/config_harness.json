@@ -1,0 +1,63 @@
+{
+  "project_name": "Qwen 3.5 9B & Xiaomi MiMo Test Harness",
+  "version": "1.0.0",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU (16 GB VRAM)",
+    "cpu_p_cores": "0-7",
+    "recommended_taskset": "taskset -c 0-7"
+  },
+  "llama_binaries": {
+    "llama_cli": "/home/genelinux01/IAPower/Herramientas_IA/llama.cpp/build/bin/llama-cli",
+    "llama_quantize": "/home/genelinux01/IAPower/Herramientas_IA/llama.cpp/build/bin/llama-quantize",
+    "llama_bench": "/home/genelinux01/IAPower/Herramientas_IA/llama.cpp/build/bin/llama-bench"
+  },
+  "models": {
+    "xiaomi_q8": {
+      "name": "Xiaomi MiMo-V2.6-Distill-Qwen-9B Q8_0",
+      "path": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf",
+      "architecture": "qwen35 (Gated DeltaNet hybrid)",
+      "vram_gb": 9.5
+    },
+    "xiaomi_bf16": {
+      "name": "Xiaomi MiMo-V2.6-Distill-Qwen-9B BF16",
+      "path": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-BF16.gguf",
+      "architecture": "qwen35 (Gated DeltaNet hybrid)",
+      "vram_gb": 17.0
+    },
+    "original_q8": {
+      "name": "Qwen3.5-9B Original Q8_0",
+      "path": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-original-Q8_0.gguf",
+      "architecture": "qwen35",
+      "vram_gb": 9.8
+    },
+    "original_bf16": {
+      "name": "Qwen3.5-9B Original BF16",
+      "path": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-original-BF16.gguf",
+      "architecture": "qwen35",
+      "vram_gb": 18.0
+    },
+    "abliterado_q8": {
+      "name": "Qwen3.5-9B Abliterado V2 Q8_0",
+      "path": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf",
+      "architecture": "qwen35 (uncensored)",
+      "vram_gb": 9.8
+    },
+    "abliterado_bf16": {
+      "name": "Qwen3.5-9B Abliterado V2 BF16",
+      "path": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-BF16.gguf",
+      "architecture": "qwen35 (uncensored)",
+      "vram_gb": 18.0
+    }
+  },
+  "datasets": {
+    "gsm8k": "/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/datasets/gsm8k_test_hf.jsonl",
+    "hmmt_feb_2025": "/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/datasets/hmmt_feb_2025_hf.jsonl"
+  },
+  "special_requirements": {
+    "architecture": "qwen3_5 hybrid SSM / Linear Attention with Gated DeltaNet",
+    "mtp_remedy": "Must be converted/loaded with --no-mtp flag to omit phantom 33rd layer",
+    "mrope_sections": [11, 11, 10, 0],
+    "kv_cache_type": "q4_0",
+    "recommended_flags": "-ngl 99 -c 4096 -n 1024 -b 19 -ub 19 -ctk q4_0 -ctv q4_0 --single-turn --simple-io"
+  }
+}

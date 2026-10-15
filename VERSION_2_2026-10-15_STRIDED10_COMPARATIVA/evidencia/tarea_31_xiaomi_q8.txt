@@ -1,0 +1,87 @@
+PROMPT:
+<|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+OUTPUT:
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b0-unknown
+model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf
+ftype      : Q8_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> <|im_start|>system
+You are an expert analytical and mathematical reasoning assistant. Carefully review all given premises and variables, compute each step systematically inside <think> and </think> tags, and finish your answer with #### <result>.<|im_end|>
+<|im_start|>user
+Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.<|im_end|>
+<|im_start|>assistant
+<think>
+
+
+[Start thinking]
+
+Let me solve this step by step.
+
+Darrell and Allen's ages are in the ratio 7:11.
+Total age now is 162.
+
+Let Darrell's age = 7x
+Let Allen's age = 11x
+
+7x + 11x = 162
+18x = 162
+x = 9
+
+Darrell's age = 7 * 9 = 63
+Allen's age = 11 * 9 = 99
+
+Allen's age 10 years from now = 99 + 10 = 109
+
+Let me verify: 63 + 99 = 162. ✓
+Ratio 63:99 = 7:11. ✓
+
+Answer: 109
+[End thinking]
+
+Darrell and Allen's ages are in the ratio 7:11, and their total age is 162.
+
+Let Darrell's age = 7x and Allen's age = 11x.
+
+7x + 11x = 162
+18x = 162
+x = 9
+
+Allen's age now = 11 × 9 = 99
+
+Allen's age 10 years from now = 99 + 10 = 109
+
+#### 109
+
+[ Prompt: 196.9 t/s | Generation: 54.8 t/s ]
+
+
+Exiting...
