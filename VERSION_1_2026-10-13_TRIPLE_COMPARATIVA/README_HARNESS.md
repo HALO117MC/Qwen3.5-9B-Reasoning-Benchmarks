@@ -1,7 +1,7 @@
 # 🧪 Test Harness: Qwen 3.5 9B & Xiaomi MiMo-V2.6-Distill-Qwen-9B
 
 Ubicación oficial del Harness de Pruebas:
-`/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/`
+`./`
 
 ---
 
@@ -46,16 +46,16 @@ HARDNES-PRUEBAS/
 ### 1. Ejecutar Sanity Check
 Comprueba en segundos que el modelo cargue en GPU y responda coherentemente:
 ```bash
-/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python test_suite_sanity.py xiaomi_q8
+/workspace/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python test_suite_sanity.py xiaomi_q8
 ```
 
 ### 2. Ejecutar Benchmark GSM8K (Hugging Face)
 Evalúa preguntas matemáticas paso a paso y calcula precisión exacta:
 ```bash
-/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python harness_runner.py --models xiaomi_q8 original_q8 --dataset gsm8k --samples 10
+/workspace/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python harness_runner.py --models xiaomi_q8 original_q8 --dataset gsm8k --samples 10
 ```
 
 ### 3. Ejecutar Benchmark HMMT (Olimpiada Matemática de Harvard-MIT)
 ```bash
-/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python harness_runner.py --models xiaomi_q8 original_q8 --dataset hmmt_feb_2025 --samples 5
+/workspace/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python harness_runner.py --models xiaomi_q8 original_q8 --dataset hmmt_feb_2025 --samples 5
 ```

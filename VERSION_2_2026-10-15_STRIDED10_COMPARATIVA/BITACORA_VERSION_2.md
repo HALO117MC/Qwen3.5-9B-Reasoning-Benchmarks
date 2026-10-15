@@ -2,7 +2,7 @@
 **Fecha:** 2026-10-15  
 **Hardware:** NVIDIA GeForce RTX 5080 Laptop GPU (16 GB VRAM)  
 **Entorno:** llama.cpp oficial v0.6.0 (commit b42b7e6d3)  
-**Ruta del Harness:** `/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/`
+**Ruta del Harness:** `./VERSION_2_2026-10-15_STRIDED10_COMPARATIVA/`
 
 ---
 

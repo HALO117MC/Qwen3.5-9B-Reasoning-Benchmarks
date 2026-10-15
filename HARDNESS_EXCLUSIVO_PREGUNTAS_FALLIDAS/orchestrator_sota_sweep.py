@@ -18,11 +18,11 @@ import time
 import subprocess
 from pathlib import Path
 
-BASE_DIR = Path("/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/HARDNESS_EXCLUSIVO_PREGUNTAS_FALLIDAS")
+BASE_DIR = Path("./HARDNESS_EXCLUSIVO_PREGUNTAS_FALLIDAS")
 HARNESS_SCRIPT = BASE_DIR / "harness_fallidas.py"
 RESULTS_DIR = BASE_DIR / "resultados"
 PROGRESS_LOG = BASE_DIR / "sweep_sota_progress.log"
-ARTIFACT_DIR = Path("/home/genelinux01/Caja_Fuerte_IDE/Umbral/Config_Aislada/.gemini/antigravity/brain/8f9058ba-55a5-4fc0-a68b-5b60f0f14101")
+ARTIFACT_DIR = Path("./artifacts/8f9058ba-55a5-4fc0-a68b-5b60f0f14101")
 
 TEMPS_TO_SWEEP = [0.15, 0.12, 0.18]
 SEED = 2026

@@ -37,7 +37,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -155,7 +155,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -248,7 +248,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -397,7 +397,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -578,7 +578,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -744,7 +744,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -845,7 +845,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -967,7 +967,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -1119,7 +1119,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -1269,7 +1269,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -1408,7 +1408,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -1571,7 +1571,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -1673,7 +1673,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -1821,7 +1821,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -1975,7 +1975,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -2112,7 +2112,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -2291,7 +2291,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -2501,7 +2501,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -2662,7 +2662,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 
@@ -2790,7 +2790,7 @@ Loading model...
                                     ▀▀    ▀▀
 
 build      : b0-unknown
-model      : /home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
+model      : ./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf
 ftype      : Q8_0
 modalities : text
 

@@ -1,7 +1,7 @@
 # 📋 Bitácora Técnica de Versión: V1 (2026-10-13)
 
 **Identificador de Versión:** `VERSION_1_2026-10-13_TRIPLE_COMPARATIVA`  
-**Ubicación:** `/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/VERSION_1_2026-10-13_TRIPLE_COMPARATIVA/`  
+**Ubicación:** `./VERSION_1_2026-10-13_TRIPLE_COMPARATIVA/`  
 **Fecha de Ejecución:** 13 de Octubre de 2026  
 **Responsable:** Antigravity AI & Químico de Tensores  
 

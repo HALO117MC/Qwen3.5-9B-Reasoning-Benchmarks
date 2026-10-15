@@ -1,7 +1,7 @@
 # 📋 Bitácora Técnica de Versión: V2 (2026-10-13)
 
 **Identificador de Versión:** `VERSION_2_2026-10-13_DATASET_COMPLETO_100_GSM8K`  
-**Ubicación:** `/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/VERSION_2_2026-10-13_DATASET_COMPLETO_100_GSM8K/`  
+**Ubicación:** `./VERSION_2_2026-10-13_DATASET_COMPLETO_100_GSM8K/`  
 **Fecha:** 13 de Octubre de 2026  
 **Entorno de Ejecución:** LAB Canónico (`HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B`)  
 

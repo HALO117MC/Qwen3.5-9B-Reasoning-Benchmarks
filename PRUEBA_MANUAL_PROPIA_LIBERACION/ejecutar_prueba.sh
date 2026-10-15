@@ -9,10 +9,10 @@
 # ==============================================================================
 
 DIR_BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PYTHON_ENV="/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python"
+PYTHON_ENV="/workspace/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python"
 
 # Modelo por defecto: Qwen 3.5 9B Abliterado V2 Q8_0
-MODELO="/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf"
+MODELO="./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf"
 
 # Si el usuario pasa un argumento por terminal, usa ese modelo
 if [ -n "$1" ]; then

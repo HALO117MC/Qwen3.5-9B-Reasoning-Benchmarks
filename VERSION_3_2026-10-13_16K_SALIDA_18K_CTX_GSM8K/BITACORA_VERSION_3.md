@@ -1,7 +1,7 @@
 # 📋 BITÁCORA OFICIAL DE HARDNESS — VERSIÓN 3
 
 **Fecha de Creación:** 13 de Octubre de 2026  
-**Ubicación Canónica:** `/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/`
+**Ubicación Canónica:** `./VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/`
 
 ---
 

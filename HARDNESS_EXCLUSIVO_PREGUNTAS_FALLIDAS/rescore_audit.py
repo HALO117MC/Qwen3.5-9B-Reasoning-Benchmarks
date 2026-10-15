@@ -8,7 +8,7 @@ import os
 import json
 from pathlib import Path
 
-BASE_DIR = Path("/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/HARDNESS_EXCLUSIVO_PREGUNTAS_FALLIDAS")
+BASE_DIR = Path("./HARDNESS_EXCLUSIVO_PREGUNTAS_FALLIDAS")
 EVIDENCE_DIR = BASE_DIR / "evidencia"
 RESULTS_DIR = BASE_DIR / "resultados"
 DATASET_PATH = BASE_DIR / "dataset_8_fallidas_gsm8k.json"

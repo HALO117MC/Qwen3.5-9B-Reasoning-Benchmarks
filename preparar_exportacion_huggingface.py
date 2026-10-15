@@ -11,7 +11,7 @@ import shutil
 import json
 from pathlib import Path
 
-BASE_LAB = Path("/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B")
+BASE_LAB = Path("./HARDEN-PRUEBA-QWEN3-5-9B")
 EXPORT_DIR = BASE_LAB / "HUGGINGFACE_DATASET_BENCHMARK"
 
 # Subdirectorios del dataset
@@ -29,13 +29,13 @@ for d in DIRS.values():
     d.mkdir(parents=True, exist_ok=True)
 
 REPLACEMENTS = [
-    ("/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/", "models/"),
-    ("/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/", "benchmark/"),
-    ("/home/genelinux01/Caja_Fuerte_IDE/Umbral/Config_Aislada/.gemini/antigravity/brain/8f9058ba-55a5-4fc0-a68b-5b60f0f14101/", "figures/"),
-    ("/home/genelinux01/Caja_Fuerte_IDE/Umbral/Config_Aislada/.gemini/antigravity/", "artifacts/"),
-    ("/home/genelinux01/IAPower/Herramientas_IA/", "/workspace/"),
-    ("/home/genelinux01/", "/workspace/"),
-    ("genelinux01", "researcher"),
+    ("./models/Qwen3.5-9B/GGUF/", "models/"),
+    ("./", "benchmark/"),
+    ("./artifacts/8f9058ba-55a5-4fc0-a68b-5b60f0f14101/", "figures/"),
+    ("/workspace/Caja_Fuerte_IDE/Umbral/Config_Aislada/.gemini/antigravity/", "artifacts/"),
+    ("/workspace/IAPower/Herramientas_IA/", "/workspace/"),
+    ("/workspace/", "/workspace/"),
+    ("developer", "researcher"),
 ]
 
 def sanitize_text(text: str) -> str:

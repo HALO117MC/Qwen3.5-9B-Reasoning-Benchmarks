@@ -7,7 +7,7 @@
 # ==============================================================================
 
 DIR_BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PYTHON_ENV="/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python"
+PYTHON_ENV="/workspace/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python"
 
 # Semilla por defecto: 2026 (o la que pase el usuario como primer argumento)
 SEED=${1:-2026}

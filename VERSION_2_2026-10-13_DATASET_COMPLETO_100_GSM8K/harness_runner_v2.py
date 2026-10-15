@@ -28,12 +28,12 @@ REPORT_MD = os.path.join(RESULTS_DIR, "reporte_100_gsm8k_trio.md")
 RESULT_JSON = os.path.join(RESULTS_DIR, "resultados_100_gsm8k_trio.json")
 
 MODELS = {
-    "Original": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-original-Q8_0.gguf",
-    "Abliterado_V2": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf",
-    "Xiaomi_MiMo": "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf"
+    "Original": "./models/Qwen3.5-9B/GGUF/Qwen3.5-9B-original-Q8_0.gguf",
+    "Abliterado_V2": "./models/Qwen3.5-9B/GGUF/Qwen3.5-9B_ABLITERADO_V2-Q8_0.gguf",
+    "Xiaomi_MiMo": "./models/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf"
 }
 
-LLAMA_CLI = "/home/genelinux01/IAPower/Herramientas_IA/llama.cpp/build/bin/llama-cli"
+LLAMA_CLI = "./llama.cpp/build/bin/llama-cli"
 
 def extract_answer(text):
     if not text:

@@ -3,7 +3,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PYTHON_VENV="/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python"
+PYTHON_VENV="/workspace/IAPower/Herramientas_IA/Cirugia_Tensores/venv/bin/python"
 
 echo "================================================================="
 echo "   HARDNESS DE PRUEBAS: QWEN 3.5 9B & XIAOMI MIMO (LAB CANÓNICO)"

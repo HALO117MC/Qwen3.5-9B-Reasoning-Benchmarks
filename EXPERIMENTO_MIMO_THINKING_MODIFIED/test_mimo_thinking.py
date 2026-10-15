@@ -11,9 +11,9 @@ import re
 import os
 import json
 
-LLAMA_CLI = "/home/genelinux01/IAPower/Herramientas_IA/llama.cpp/build/bin/llama-cli"
-MODEL_PATH = "/home/genelinux01/IAPower/Herramientas_IA/Cirugia_Tensores/Boveda_llm/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf"
-EXP_DIR = "/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/EXPERIMENTO_MIMO_THINKING_MODIFIED"
+LLAMA_CLI = "./llama.cpp/build/bin/llama-cli"
+MODEL_PATH = "./models/Qwen3.5-9B/GGUF/Qwen3.5-9B-xiaomi-Q8_0.gguf"
+EXP_DIR = "./EXPERIMENTO_MIMO_THINKING_MODIFIED"
 os.makedirs(EXP_DIR, exist_ok=True)
 
 QUESTIONS_TO_TEST = [

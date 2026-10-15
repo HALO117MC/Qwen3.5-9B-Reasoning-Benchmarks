@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
 
-BASE_DIR = Path("/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B")
+BASE_DIR = Path("./HARDEN-PRUEBA-QWEN3-5-9B")
 V3_RESULTS = BASE_DIR / "VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K" / "resultados" / "resultados_100_gsm8k_trio.json"
 RETEST_DIR = BASE_DIR / "HARDNESS_EXCLUSIVO_PREGUNTAS_FALLIDAS"
 RETEST_EVID = RETEST_DIR / "evidencia"
@@ -27,7 +27,7 @@ RETEST_T03 = RETEST_DIR / "resultados" / "resultado_retest_seed_2026.json"
 DATASET_PATH = RETEST_DIR / "dataset_8_fallidas_gsm8k.json"
 
 OUT_DIR_LAB = RETEST_DIR / "resultados"
-OUT_DIR_ARTIFACT = Path("/home/genelinux01/Caja_Fuerte_IDE/Umbral/Config_Aislada/.gemini/antigravity/brain/8f9058ba-55a5-4fc0-a68b-5b60f0f14101")
+OUT_DIR_ARTIFACT = Path("./artifacts/8f9058ba-55a5-4fc0-a68b-5b60f0f14101")
 
 def clean_output(raw_text):
     text = re.sub(r'\[\s*Prompt:.*?\]', '', raw_text, flags=re.DOTALL)

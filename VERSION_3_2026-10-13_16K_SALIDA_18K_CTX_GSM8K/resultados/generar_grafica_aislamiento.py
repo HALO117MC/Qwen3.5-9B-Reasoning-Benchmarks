@@ -106,8 +106,8 @@ plt.figtext(0.5, 0.02,
 
 plt.tight_layout(rect=[0, 0.05, 1, 0.94])
 
-out1 = '/home/genelinux01/Caja_Fuerte_IDE/Umbral/Config_Aislada/.gemini/antigravity/brain/8f9058ba-55a5-4fc0-a68b-5b60f0f14101/grafica_aislamiento_fallos_gsm8k.png'
-out2 = '/home/genelinux01/IAPower/Herramientas_IA/ACCESORIOS_PARA_LLM/LAB-PRUEBAS-TODO-TIPO/HARDNES-PRUEBAS/HARDEN-PRUEBA-QWEN3-5-9B/VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/resultados/grafica_aislamiento_fallos_gsm8k.png'
+out1 = './artifacts/8f9058ba-55a5-4fc0-a68b-5b60f0f14101/grafica_aislamiento_fallos_gsm8k.png'
+out2 = './VERSION_3_2026-10-13_16K_SALIDA_18K_CTX_GSM8K/resultados/grafica_aislamiento_fallos_gsm8k.png'
 
 plt.savefig(out1, facecolor=fig.get_facecolor(), edgecolor='none')
 plt.savefig(out2, facecolor=fig.get_facecolor(), edgecolor='none')
